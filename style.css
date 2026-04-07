@@ -13,7 +13,8 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -55,3 +56,56 @@ section {
     padding-bottom: 0.5rem;
     font-size: 2rem;
 }
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img;:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;  
+    display: inline-block;
+}
+
+.home-container {
+    background: url("./img/home-img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 100rem;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 6rem;
+    line-height: 1.2;
+    max-width: 60rem;
+}
+
+.content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+    max-width: 60rem;
+}
+
